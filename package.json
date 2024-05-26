@@ -1,0 +1,19 @@
+{
+  "name": "@zakyyudha/habibi",
+  "version": "1.0.0",
+  "description": "A package to encrypt and decrypt PII fields with love and care",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zaky Yudha",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "eslint-config-love": "^48.0.0"
+  }
+}
