@@ -3,17 +3,44 @@
   "version": "1.0.2",
   "description": "A package to encrypt and decrypt PII fields with love and care",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Zaky Yudha",
   "devDependencies": {
     "@types/node": "^20.12.12",
     "eslint": "^8.57.0",
     "typescript": "^5.4.5",
     "eslint-config-love": "^48.0.0"
+  },
+  "author": "Zaky Yudha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakyyudha/habibi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zakyyudha/habibi/issues"
+  },
+  "homepage": "https://github.com/zakyyudha/varcraft#readme",
+  "keywords": [
+    "PII",
+    "encryption",
+    "decryption",
+    "hashing",
+    "data security",
+    "customizable",
+    "JavaScript",
+    "TypeScript",
+    "data protection",
+    "sensitive data"
+  ],
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
